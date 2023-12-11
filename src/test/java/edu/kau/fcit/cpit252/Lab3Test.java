@@ -11,7 +11,7 @@ public class Lab3Test
     // Asset Car implements cloneable
     @Test
     public void assertCarIsCloneable(){
-       assertEquals(Car.class.getInterfaces()[0].getName(), java.lang.Cloneable.class.getName());
+        assertEquals(Car.class.getInterfaces()[0].getName(), java.lang.Cloneable.class.getName());
     }
 
     // Asset Car overrides the clone method
